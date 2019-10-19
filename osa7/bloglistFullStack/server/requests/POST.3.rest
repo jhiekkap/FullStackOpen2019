@@ -1,0 +1,17 @@
+PUT http://localhost:3003/api/blogs/5d1d064d02cc1267525bc98c/comments
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpoaWVra2FwIiwiaWQiOiI1ZDEyMzk4MTBjNzE5MDMwZjhjZjFmZmEiLCJpYXQiOjE1NjIzNTI5NTR9.UvAEKWXcrF0Jq-abxOVLrJOdwULoBj2gHa2wYeL1mP0
+ 
+{
+ "comments": ["terrific!!!"],
+    "url": "www.pluki.fi",
+    "title": "Ploki",
+    "author": "Timppa",
+    "user": {
+      "username": "pe",
+      "name": "Pentti",
+      "id": "5d007b2f3af8352f4483a674"
+    },
+    "likes": 49,
+    "id": "5d1d064d02cc1267525bc98c" 
+  } 
